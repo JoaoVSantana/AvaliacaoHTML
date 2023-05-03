@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0dc48
+}
+
+.cabecalho {
+    background-color: #FF0035;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho_menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.cabecalho_menu a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+
+.cabecalho_menu li {
+    margin: 0 1rem;
+}
+
+.cabecalho_logo img {
+
+    width: 3rem;
+    margin: 0 1rem;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    align-items: center;
+    gap: 5rem;
+    width: 100%;
+
+}
+
+.conteudo_texto {
+    align-items: center;
+    width: 40%;
+}
+
+.conteudo_texto h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 1rem;
+
+}
+
+.conteudo_texto p {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.button {
+    align-items: center;
+}
+
+.conteudo_imagem {
+    align-items: center;
+    width: 40%;
+    margin-right: 1rem;
+
+}
+
+.conteudo_imagem img {
+    width: 100%;
+}
+
+.descricao {
+
+    display: flex;
+    margin: 2rem;
+}
+
+.descricao_titulo {
+    text-align: center;
+    margin: 4rem;
+}
+
+.produtos   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+    
+}
+
+.produtos a {
+    text-decoration: none;
+}
+
+.produto1 {
+    width: 13rem;
+    border-radius: 1rem;
+}
+
+.produto1 p {
+    text-align: center;
+}
+
+.produto2 {
+    width: 13rem;
+    border-radius: 1rem
+}
+
+.produto2 p {
+    text-align: center;
+}
+
+.produto3 {
+    width: 13rem;
+    border-radius: 1rem
+}
+
+.produto3 p {
+    text-align: center;
+}
+
+.rodape {
+    background-color: #FF0035;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.rodape_titulo  {
+    text-align: center;margin-bottom: 3rem;
+}
+
+.rodape ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.lista_rodape   {
+    display: flex;
+    
+}
+
+.rodape a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
